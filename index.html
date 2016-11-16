@@ -5,11 +5,23 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <svg id="game-board" width="80%" viewBox="0 0 300 300">
+    <svg id="game-board" width="80%" viewBox="0 0 320 320">
       <!-- Create all the shapes for your game board here! -->
-    <rect x="0" y="0" width="90" hight="90" onclick="something()"/>
-    
+    <rect x="10" y="10" width="90" height="90" onclick="makeShape()"fill="grey"/>
+    <rect x="120" y="10" width="90" height="90" onclick="makeShape()"fill="orange"/>
+    <rect x="230" y="10" width="90" height="90" onclick="makeShape()"fill="grey"/>
+    <rect x="10" y="120" width="90" height="90" onclick="makeShape()"fill="orange"/>
+    <rect x="10" Y="230" width="90" height="90" onclick="makeShape()"fill="grey"/>
+    <rect x="120" y="120" width="90" height="90" onclick="makeShape()"fill="grey"/>
+    <rect x="230" y="120" width="90" height="90" onclick="makeShappe()"fill="orange"/>
+    <rect x="120" y="230" width="90"  height="90" onclick="makeShape()"fill="orange"/>
+    <rect X="230" y="230" width="90" height="90" onclick="mamkeShape()"fill="grey"/>
+
+function makeShape(){
+
+}
     </svg>
+
 
     <!-- This line of code points to your JavaScript file. No need to touch it. -->
     <script src="tic-tac-toe.js"></script>
