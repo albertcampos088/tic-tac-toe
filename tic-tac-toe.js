@@ -4,7 +4,7 @@ var circle = document.createElementNS(namespace, "circle")
 circle.setAttribute("cx", 10)
 circle.setAttribute("cy", 10)
 circle.setAttribute("r", 10)
-canvas.appendChild(circle)
+canvas.appendChild(circle) 
 
 
 var namespace = "http://www.w3.org/2000/svg"
