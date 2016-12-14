@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,27 +5,19 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <svg id="game-board" width="80%" viewBox="0 0 320 320">
-      <!-- Create all the shapes for your game board here! -->
-    <rect x="10" y="10" width="90" height="90" onclick="makeShape()"fill="grey"/>
-    <rect x="120" y="10" width="90" height="90" onclick="makeShape()"fill="grey"/>
-    <rect x="230" y="10" width="90" height="90" onclick="makeShape()"fill="grey"/>
-    <rect x="10" y="120" width="90" height="90" onclick="makeShape()"fill="grey"/>
-    <rect x="10" Y="230" width="90" height="90" onclick="makeShape()"fill="grey"/>
-    <rect x="120" y="120" width="90" height="90" onclick="makeShape()"fill="grey"/>
-    <rect x="230" y="120" width="90" height="90" onclick="makeShappe()"fill="grey"/>
-    <rect x="120" y="230" width="90"  height="90" onclick="makeShape()"fill="grey"/>
-    <rect X="230" y="230" width="90" height="90" onclick="makeShape()"fill="grey"/>
-
-    
-
-function makeShape(){
-
-}
-    </svg>
-
-
+      <svg id="game-board" width="80%" viewBox="0 0 300 300">
+            <rect x="0" y="0" height="100" width="100" fill="yellow" onclick="game()"/>
+            <rect x="100" y="0" height="100" width="100" fill="yellow" onclick="game2()"/>
+            <rect x="200" y="0" height="100" width="100" fill="yellow" onclick="game3()"/>
+            <rect x="0" y="100" height="100" width="100" fill="yellow" onclick="game4()"/>
+            <rect x="100" y="100" height="100" width="100" fill="yellow" onclick="game5()"/>
+            <rect x="200" y="100" height="100" width="100" fill="yellow" onclick="game6()"/>
+            <rect x="0" y="200" height="100" width="100" fill="yellow" onclick="game7()"/>
+            <rect x="100" y="200" height="100" width="100" fill="yellow" onclick="game8()"/>
+            <rect x="200" y="200" height="100" width="100" fill="yellow" onclick="game9()"/>
+          </svg>
     <!-- This line of code points to your JavaScript file. No need to touch it. -->
     <script src="tic-tac-toe.js"></script>
   </body>
 </html>
+<h1>tic-tac-toe</h1>
