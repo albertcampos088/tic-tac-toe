@@ -8,7 +8,7 @@ function game(){
       circle.setAttribute("cx", "50")
       circle.setAttribute("cy", "50")
       circle.setAttribute("r", "50")
-      circle.setAttribute("fill", "grey")
+      circle.setAttribute("fill", "black")
       var canvas = document.getElementById("game-board")
       canvas.appendChild(circle)
       topleftclick= true
@@ -21,7 +21,7 @@ function game(){
     square.setAttribute("y", "10")
     square.setAttribute("height", "80")
     square.setAttribute("width", "80")
-    square.setAttribute("fill", "black")
+    square.setAttribute("fill", "grey")
     var canvas = document.getElementById("game-board")
     canvas.appendChild(square)
     topleftfclick= true
@@ -37,7 +37,7 @@ function game2(){
       circle.setAttribute("cx", "150")
       circle.setAttribute("cy", "50")
       circle.setAttribute("r", "50")
-      circle.setAttribute("fill", "blue")
+      circle.setAttribute("fill", "black")
       var canvas = document.getElementById("game-board")
       canvas.appendChild(circle)
       topMiddleClick= true
@@ -50,7 +50,7 @@ function game2(){
       square.setAttribute("y", "10")
       square.setAttribute("height", "80")
       square.setAttribute("width", "80")
-      square.setAttribute("fill", "blue")
+      square.setAttribute("fill", "grey")
       var canvas = document.getElementById("game-board")
       canvas.appendChild(square)
       topMiddleClick= true
@@ -66,7 +66,7 @@ function game2(){
     circle.setAttribute("cx", "250")
     circle.setAttribute("cy", "50")
     circle.setAttribute("r", "50")
-    circle.setAttribute("fill", "blue")
+    circle.setAttribute("fill", "black")
     var canvas = document.getElementById("game-board")
     canvas.appendChild(circle)
     topRightClick= true
@@ -79,7 +79,7 @@ function game2(){
     square.setAttribute("y", "10")
     square.setAttribute("height", "80")
     square.setAttribute("width", "80")
-    square.setAttribute("fill", "blue")
+    square.setAttribute("fill", "grey")
     var canvas = document.getElementById("game-board")
     canvas.appendChild(square)
     topRightClick= true
@@ -95,7 +95,7 @@ function game4(){
   circle.setAttribute("cx", "50")
   circle.setAttribute("cy", "150")
   circle.setAttribute("r", "50")
-  circle.setAttribute("fill", "blue")
+  circle.setAttribute("fill", "black")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(circle)
   middleLeftClick= true
@@ -108,7 +108,7 @@ function game4(){
     square.setAttribute("y", "110")
     square.setAttribute("height", "80")
     square.setAttribute("width", "80")
-    square.setAttribute("fill", "blue")
+    square.setAttribute("fill", "grey")
     var canvas = document.getElementById("game-board")
     canvas.appendChild(square)
     middleLeftClick= true
@@ -124,7 +124,7 @@ function game5(){
   circle.setAttribute("cx", "150")
   circle.setAttribute("cy", "150")
   circle.setAttribute("r", "50")
-  circle.setAttribute("fill", "blue")
+  circle.setAttribute("fill", "black")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(circle)
   middleClick= true
@@ -137,7 +137,7 @@ function game5(){
     square.setAttribute("y", "110")
     square.setAttribute("height", "80")
     square.setAttribute("width", "80")
-    square.setAttribute("fill", "blue")
+    square.setAttribute("fill", "grey")
     var canvas = document.getElementById("game-board")
     canvas.appendChild(square)
     middleClick= true
@@ -153,7 +153,7 @@ function game6(){
   circle.setAttribute("cx", "250")
   circle.setAttribute("cy", "150")
   circle.setAttribute("r", "50")
-  circle.setAttribute("fill", "blue")
+  circle.setAttribute("fill", "black")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(circle)
   middleRightClick= true
@@ -166,7 +166,7 @@ function game6(){
     square.setAttribute("y", "110")
     square.setAttribute("height", "80")
     square.setAttribute("width", "80")
-    square.setAttribute("fill", "blue")
+    square.setAttribute("fill", "grey")
     var canvas = document.getElementById("game-board")
     canvas.appendChild(square)
     middleRightClick= true
@@ -182,7 +182,7 @@ function game7(){
   circle.setAttribute("cx", "50")
   circle.setAttribute("cy", "250")
   circle.setAttribute("r", "50")
-  circle.setAttribute("fill", "blue")
+  circle.setAttribute("fill", "black")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(circle)
   bottomLeftClick= true
@@ -195,7 +195,7 @@ function game7(){
     square.setAttribute("y", "210")
     square.setAttribute("height", "80")
     square.setAttribute("width", "80")
-    square.setAttribute("fill", "blue")
+    square.setAttribute("fill", "grey")
     var canvas = document.getElementById("game-board")
     canvas.appendChild(square)
     bottomLeftClick= true
@@ -211,7 +211,7 @@ function game8(){
   circle.setAttribute("cx", "150")
   circle.setAttribute("cy", "250")
   circle.setAttribute("r", "50")
-  circle.setAttribute("fill", "blue")
+  circle.setAttribute("fill", "black")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(circle)
   bottomMiddleClick= true
@@ -224,7 +224,7 @@ function game8(){
     square.setAttribute("y", "210")
     square.setAttribute("height", "80")
     square.setAttribute("width", "80")
-    square.setAttribute("fill", "blue")
+    square.setAttribute("fill", "grey")
     var canvas = document.getElementById("game-board")
     canvas.appendChild(square)
     bottomMiddleClick= true
@@ -240,7 +240,7 @@ function game9(){
   circle.setAttribute("cx", "250")
   circle.setAttribute("cy", "250")
   circle.setAttribute("r", "50")
-  circle.setAttribute("fill", "blue")
+  circle.setAttribute("fill", "black")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(circle)
   bottomRightClick= true
@@ -253,7 +253,7 @@ function game9(){
     square.setAttribute("y", "210")
     square.setAttribute("height", "80")
     square.setAttribute("width", "80")
-    square.setAttribute("fill", "blue")
+    square.setAttribute("fill", "grey")
     var canvas = document.getElementById("game-board")
     canvas.appendChild(square)
     bottomRightClick= true
