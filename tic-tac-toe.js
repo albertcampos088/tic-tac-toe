@@ -8,7 +8,7 @@ function game(){
       circle.setAttribute("cx", "50")
       circle.setAttribute("cy", "50")
       circle.setAttribute("r", "50")
-      circle.setAttribute("fill", "blue")
+      circle.setAttribute("fill", "grey")
       var canvas = document.getElementById("game-board")
       canvas.appendChild(circle)
       topleftclick= true
@@ -21,7 +21,7 @@ function game(){
     square.setAttribute("y", "10")
     square.setAttribute("height", "80")
     square.setAttribute("width", "80")
-    square.setAttribute("fill", "blue")
+    square.setAttribute("fill", "black")
     var canvas = document.getElementById("game-board")
     canvas.appendChild(square)
     topleftfclick= true
