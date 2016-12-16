@@ -6,8 +6,8 @@ function game(){
   if (currentPlayer == 1){
     if (topleftclick == false) {
       var circle = document.createElementNS(namespace, "circle")
-      circle.setAttribute("cx", "50")
-      circle.setAttribute("cy", "50")
+      circle.setAttribute("cx", "5")
+      circle.setAttribute("cy", "5")
       circle.setAttribute("r", "50")
       circle.setAttribute("fill", "black")
       var canvas = document.getElementById("game-board")
